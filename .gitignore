@@ -1,0 +1,13 @@
+# IDE
+.idea/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend (if applicable)
+backend/target/
+
+# Logs
+*.log

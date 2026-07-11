@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: "AI Resume Analyzer"
+  datasource:
+    url: jdbc:mysql://localhost:3306/resume_analyzer?createDatabaseIfNotExist=true
+    username : root
+    password: Gagan@7_3_8_2
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port:8080
+gemini:
+  api:
+    key: "My_key_here"
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+
+
