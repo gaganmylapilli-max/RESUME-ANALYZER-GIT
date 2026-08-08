@@ -48,3 +48,13 @@ body{
     radial-gradient(at 100% 0%, hsla(289,49%,15%,1) 0, transparent 50%);
 
 }
+
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
